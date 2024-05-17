@@ -1,0 +1,13 @@
+{% extends 'root.html' %}
+{% block content %}
+<form method="POST" action="/CreateUser">
+    <div>
+        <p>Enter your Institution's email </p>
+        <input type="email" id="useremail">
+    </div>
+    <div>
+        <p>Enter your password </p>
+        <input type="password" id="password">
+    </div>
+</form>
+{% endblock %}
